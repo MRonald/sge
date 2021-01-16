@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGE - Sistema Gerenciador de Estoque</title>
+    <link rel="stylesheet" type="text/css" href="_css/style.css">
+</head>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <h1>SGE - Sistema Gerenciador de Estoque</h1>
+        </header>
+        <section id="conteudo">
+            <form>
+                <table id="listaProdutos">
+                    <tr>
+                        <td class="linhaInicial bordaDireita">Item</td>
+                        <td class="linhaInicial bordaDireita">Valor Unitário</td>
+                        <td class="linhaInicial bordaDireita">Quantidade</td>
+                        <td class="linhaInicial">Valor Total</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select class="produto tamanhoText">
+                                <option>Cerveja</option>
+                                <option>Refrigerante</option>
+                                <option>Água</option>
+                            </select>
+                        </td>
+                        <td><input type="text" disabled placeholder="R$" class="inputNumber tamanhoText" id="vu1"></td>
+                        <td><input type="number" class="inputNumber tamanhoText" id="qt1"></td>
+                        <td><input type="text" disabled placeholder="R$" class="inputNumber tamanhoText" id="vt1"></td>
+                    </tr>
+                </table>
+                <div id="grupoBotoes">
+                    <a href="#" class="botoesSection" id="inserirProduto">Inserir Produto</a>
+                    <a href="#" class="botoesSection" id="removerProduto">Remover Produto</a>
+                </div>
+            </form>
+            <div id="statusCompra">
+                <div id="telaValor">
+                    <table id="tableValor">
+                        <tr>
+                            <td class="esquerda">Valor Total:</td>
+                            <td class="direita" id="valorTotal">R$ 0,00</td>
+                        </tr>
+                        <tr>
+                            <td class="esquerda">Desconto:</td>
+                            <td class="direita" id="desconto">0%</td>
+                        </tr>
+                        <tr>
+                            <td class="esquerda">Valor Pago:</td>
+                            <td class="direita" id="valorPago">R$ 0,00</td>
+                        </tr>
+                        <tr>
+                            <td class="esquerda">Troco:</td>
+                            <td class="direita" id="Troco">R$ 0,00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="grupoBotoes">
+                    <a href="#" class="botoesSection">Desconto</a>
+                    <a href="#" class="botoesSection">Finalizar Compra</a>
+                </div>
+            </div>
+        </section>
+        <footer id="rodape">
+            <nav id="menu">
+                <ul>
+                    <li><a href="#" class="nao-ativo">Cadastrar Vendedor</a> |</li>
+                    <li><a href="#" class="nao-ativo">Cadastrar Cliente</a> |</li>
+                    <li><a href="#" class="nao-ativo">Cadastrar Produto</a> |</li>
+                    <li><a href="#" class="nao-ativo">Fazer Login</a> |</li>
+                    <li><a href="#" class="ativo">Compra e Venda</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+</html>

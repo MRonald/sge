@@ -102,7 +102,7 @@ nav#menu ul {
 nav#menu li {
 	display: inline-block;
 }
-nav#menu a:hover {
+nav#menu a.nao-ativo:hover {
     color: rgb(16, 83, 10);
     background-color: white;
 }
@@ -113,7 +113,7 @@ nav#menu a.nao-ativo {
     padding: 5px;
     border-radius: 3px;
 }
-.ativo {
+nav#menu a.ativo {
     text-decoration: none;
     color: rgb(16, 83, 10);
     background-color: white;
