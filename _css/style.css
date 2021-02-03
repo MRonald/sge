@@ -18,7 +18,7 @@ header#cabecalho, footer#rodape {
     text-align: center;
 }
 section#conteudo {
-    height: 500px;
+    min-height: 520px;
     border: 1px solid black;
     border-radius: 5px;
     margin: 5px auto 5px auto;
@@ -31,62 +31,9 @@ section#conteudo {
     padding: 5px;
     border-radius: 3px;
 }
-section#conteudo form {
-    display: block;
-    float: left;
-    width: 58%;
-    padding: 0px;
-}
 div#grupoBotoes {
     margin: 10px auto auto auto;
     text-align: center;
-}
-table#listaProdutos {
-    padding: 0px;
-    margin: auto;
-    border-spacing: 0px;
-    border: 1px solid black;
-}
-table#listaProdutos tr td   {
-    padding: 5px;
-}
-table#listaProdutos tr td.linhaInicial   {
-    border-bottom: 1px solid black;
-}
-table#listaProdutos tr td.bordaDireita   {
-    border-right: 1px solid black;
-}
-select.produto {
-    width: 250px;
-}
-input.inputNumber {
-    width: 130px;
-}
-.tamanhoText {
-    font-size: 15px;
-}
-div#statusCompra {
-    float: right;
-    width: 41%;
-    height: 200px;
-}
-div#telaValor {
-    background-color: rgba(177, 177, 177, 0.747);
-    width: 80%;
-    margin: auto;
-    border-radius: 3px;
-    box-shadow: 0px 0px 3px black;
-}
-table#tableValor {
-    border-spacing: 0px;
-    width: 100%;
-    font-weight: bold;
-}
-td.esquerda {
-    text-align: left;
-}
-td.direita {
-    text-align: right;
 }
 footer#rodape {
     padding-top: 10px;
