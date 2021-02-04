@@ -97,7 +97,7 @@
                     <li><a href="#" class="nao-ativo">Cadastrar Cliente</a> |</li>
                     <li><a href="#" class="nao-ativo">Cadastrar Produto</a> |</li>
                     <li><a href="index.html" class="nao-ativo">Fazer Login</a> |</li>
-                    <li><a href="caixa.html" class="nao-ativo">Compra e Venda</a></li>
+                    <li><a href="caixa.html" class="nao-ativo">Caixa</a></li>
                 </ul>
             </nav>
         </footer>
