@@ -13,28 +13,30 @@
             <h1>SGE - Sistema Gerenciador de Estoque</h1>
         </header>
         <section id="conteudo">
-            <div id="telaLogin">
+            <div class="telaLoginCadastro telaLogin">
                 <img src="_imgs/usuario-login.png" id="iconeUsuario" alt="Ícone usuário login">
                 <form>
-                    <div id="campos">
+                    <div class="campos camposLogin">
                         <label for="nomeUsuario">Nome de Usuário:</label><br>
                         <input type="text" id="nomeUsuario" name="nomeUsuario"><br>
                         <label for="senha">Senha:</label><br>
                         <input type="password" id="senha" name="senha"><br>
                     </div>
-                    <input type="submit" value="Entrar">
+                    <div class="btnSubmit btnEntrarLogin">
+                        <input type="submit" value="Entrar">
+                    </div>
                 </form>
-                <p id="txtCadastrar">Vendedor, ainda não é cadastrado? <a href="#">Cadastre-se</a></p>
+                <p id="txtCadastrar">Vendedor, ainda não é cadastrado? <a href="cadastrar-vendedor.php">Cadastre-se</a></p>
             </div>
         </section>
         <footer id="rodape">
             <nav id="menu">
                 <ul>
-                    <li><a href="#" class="nao-ativo">Cadastrar Vendedor</a> |</li>
+                    <li><a href="cadastrar-vendedor.php" class="nao-ativo">Cadastrar Vendedor</a> |</li>
                     <li><a href="#" class="nao-ativo">Cadastrar Cliente</a> |</li>
                     <li><a href="#" class="nao-ativo">Cadastrar Produto</a> |</li>
                     <li><a href="#" class="ativo">Fazer Login</a> |</li>
-                    <li><a href="compraEVenda.html" class="nao-ativo">Compra e Venda</a></li>
+                    <li><a href="caixa.html" class="nao-ativo">Compra e Venda</a></li>
                 </ul>
             </nav>
         </footer>

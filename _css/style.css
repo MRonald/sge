@@ -1,3 +1,4 @@
+/* Formatações genéricas */
 * {
     margin: 0px;
     padding: 0px;
@@ -22,7 +23,6 @@ section#conteudo {
     border: 1px solid black;
     border-radius: 5px;
     margin: 5px auto 5px auto;
-    padding-top: 10px;
 }
 .botoesSection {
     text-decoration: none;
@@ -67,4 +67,33 @@ nav#menu a.ativo {
     font-weight: bolder;
     padding: 5px;
     border-radius: 3px;
+}
+a:visited, a:link {
+    color: rgb(16, 83, 10);
+}
+/* Formatações das telas de cadastro e login */
+div.telaLoginCadastro {
+    box-shadow: 0px 0px 2px black;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px 0px 10px 0px;
+}
+div.telaLoginCadastro input {
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px 0px 4px 0px;
+}
+.tamanho {
+    font-size: 11pt;
+}
+img#iconeUsuario {
+    width: 100px;
+}
+div.campos {
+    text-align: left;
+    margin: auto auto 7px auto;
+}
+div.btnSubmit {
+    text-align: right;
+    margin: auto;
 }

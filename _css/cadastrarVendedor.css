@@ -1,0 +1,16 @@
+.telaCadastroVendedor {
+    width: 43%;
+}
+fieldset {
+    padding: 5px;
+    margin: auto 10px auto 10px;
+}
+.larguraCampos {
+    width: 188px;
+}
+.alinhaDireita {
+    text-align: right;
+}
+.btnCadastrarVendedor {
+    padding-right: 10px;
+}
