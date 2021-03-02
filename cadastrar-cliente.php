@@ -6,6 +6,7 @@
     <title>SGE - Sistema Gerenciador de Estoque</title>
     <link rel="stylesheet" type="text/css" href="_css/style.css">
     <link rel="stylesheet" type="text/css" href="_css/cadastrarVendedor.css">
+    <script type="text/javascript" src="_js/cadastrar-cliente.js" defer></script>
 </head>
 <body>
     <div id="interface">
@@ -13,9 +14,9 @@
             <h1>SGE - Sistema Gerenciador de Estoque</h1>
         </header>
         <section id="conteudo">
-            <div class="telaLoginCadastro telaCadastroVendedor" style="margin: 8vh auto auto auto;">
+            <div class="telaLoginCadastro telaCadastroVendedor" style="margin: 6vh auto auto auto;">
                 <img src="_imgs/usuario-cad.png" id="iconeUsuario" alt="Ícone usuário cadastro">
-                <h3>Cadastrar Vendedor</h3>
+                <h3>Cadastrar Cliente</h3>
                 <form method="GET">
                     <div class="campos">
                         <fieldset>
@@ -30,10 +31,19 @@
                                     <td colspan="3"><input type="email" id="email" name="email" size="50"></td>
                                 </tr>
                                 <tr>
-                                    <td class="alinhaDireita"><label for="cpf">CPF:</label></td>
-                                    <td><input type="number" id="cpf" name="cpf" placeholder="Somente números"></td>
-                                    <td><label for="rg">RG:</label></td>
-                                    <td><input type="number" id="rg" name="rg" placeholder="Somente números"><br></td>
+                                    <td class="alinhaDireita"><label for="tipo">Tipo:</label></td>
+                                    <td>
+                                        <select id="tipo" name="tipo" style="font-size: 11pt;padding: 2px 0px 2px 0px;">
+                                            <option value="pf">Pessoa Física</option>
+                                            <option value="pj">Pessoa Jurídica</option>
+                                        </select>
+                                    </td>
+                                    <td><label for="numDoc" id="labelNumDoc">CPF:</label></td>
+                                    <td><input type="number" id="numDoc" name="numDoc" placeholder="Somente números" style="width: 165px;"></td>
+                                </tr>
+                                <tr>
+                                    <td class="alinhaDireita"><label for="tel">Telefone:</label></td>
+                                    <td><input type="number" id="tel" name="tel" placeholder="Somente números"></td>
                                 </tr>
                             </table>
                         </fieldset>
@@ -93,8 +103,8 @@
         <footer id="rodape">
             <nav id="menu">
                 <ul>
-                    <li><a href="#" class="ativo">Cadastrar Vendedor</a> |</li>
-                    <li><a href="cadastrar-cliente.php" class="nao-ativo">Cadastrar Cliente</a> |</li>
+                    <li><a href="cadastrar-vendedor.php" class="nao-ativo">Cadastrar Vendedor</a> |</li>
+                    <li><a href="#" class="ativo">Cadastrar Cliente</a> |</li>
                     <li><a href="cadastrar-produto.php" class="nao-ativo">Cadastrar Produto</a> |</li>
                     <li><a href="index.html" class="nao-ativo">Fazer Login</a> |</li>
                     <li><a href="caixa.html" class="nao-ativo">Caixa</a></li>
