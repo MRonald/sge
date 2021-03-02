@@ -25,11 +25,8 @@ section#conteudo {
     margin: 5px auto 5px auto;
 }
 .botoesSection {
-    text-decoration: none;
-    color: white;
-    background-color: rgb(16, 83, 10);;
-    padding: 5px;
-    border-radius: 3px;
+    padding: 3px;
+    font-size: 11pt;
 }
 div#grupoBotoes {
     margin: 10px auto auto auto;

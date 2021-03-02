@@ -2,7 +2,7 @@ section#conteudo form {
     display: block;
     float: left;
     width: 58%;
-    padding: 0px;
+    padding: 10px 0px 0px 0px;
 }
 table#listaProdutos {
     padding: 0px;
@@ -32,6 +32,7 @@ div#statusCompra {
     float: right;
     width: 41%;
     height: 200px;
+    padding-top: 10px;
 }
 div#telaValor {
     background-color: rgba(177, 177, 177, 0.747);
